@@ -8,3 +8,19 @@ tags: ['unity', 'endless', 'casual']
 
 ## Magic Cube : Hyper Casual Game 
 Made by _**Vedant Studio**_
+
+### Code
+<Code language={'javascript'} >
+import React from 'react'
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+    const Code = ({ code, language }) => {
+    return (
+        <SyntaxHighlighter language={language} style={atomOneDark}>
+            {code}
+        </SyntaxHighlighter>
+    )
+}
+
+export default Code
+</Code>
