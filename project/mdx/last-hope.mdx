@@ -1,147 +1,38 @@
 ---
 title: 'Last Hope'
 description: 'Its a Puzzle Game where a boy traped in a huge building, and he has to solve puzzles to reach to the next flore of the building.'
-category: 'unreal-game-development'
-thumbnail: 'https://firebasestorage.googleapis.com/v0/b/coding-samrat.appspot.com/o/project%2Fthumbnail%2Flasthope.jpg?alt=media&token=b3ff9d13-9f18-42a2-86ba-695caaac1736'
+category: 'unreal'
+thumbnail: '/project/image/lasthope/lasthope.png'
 publishDate: '2024-05-15'
 links: [
     'https://github.com/CodingSamrat/LastHope.git',  
     ]
 tags: ['unreal', '3d person', 'puzzle']
+hidden: false
 ---
 
 
 
 
-<Heading > Introduction </Heading> 
-FileXdb is a lightweight local NoSQL database, optimized for best coding experience.
+## Title: Last Hope: The Tower's Ascent
 
-It's written in Core Python and has no external dependencies. The target is to reduce the complexity of installing external SQL Database & data handling. 
+<Heading > Concept Overview</Heading> 
+In "Last Hope: The Tower's Ascent," players embark on an emotional journey through a post-apocalyptic world where civilization has been decimated, leaving only one survivor—a young boy. Tasked with reaching the top of a towering skyscraper to activate a device that will transport him to a distant planet, players must navigate through each floor of the building, overcoming obstacles and solving puzzles to progress.
 
-> #### FileXdb is:
-> - A local, File-based, lightweight, horizontally scaled NoSQL Database.
-> - Designed to be simple and interesting to use by providing simple and clean APIs.
-> - A `Collection` & `Document` oriented approach.
-> - Works on all modern versions of Python and PyPy.
+<Heading > Story Introduction</Heading> 
+The world as we knew it is gone. A catastrophic event has left Earth barren and desolate, with only remnants of humanity scattered across the landscape. Among the ruins, a lone survivor emerges—a young boy, orphaned and alone, but determined to find hope amidst the devastation.
 
+As he searches for a way to escape the desolation, the boy discovers a towering skyscraper looming in the distance. Legends speak of a device atop the building—a gateway created by his parents as a last resort to flee the dying planet. With no other options, the boy sets out on a perilous journey to reach the summit and activate the gateway, hoping to find a new home among the stars.
 
-<Heading > Supported Python Versions</Heading >
-Since newer versions of Python are often faster, have more features and are better supported, the latest version of Python 3 is recommended for **FileXdb**. You may use it on older versions as well.
+<Heading > Gameplay Mechanics</Heading> 
+Each floor of the skyscraper serves as a unique level, presenting the player with a series of puzzles and challenges to overcome. To progress to the next floor and ultimately reach the rooftop, players must successfully navigate through each level, using logic, wit, and problem-solving skills to unlock doors, manipulate objects, and outsmart environmental hazards.
 
-<Heading > Installation</Heading >
-Install FileXdb using _**[pip](https://pip.pypa.io/en/stable/getting-started/)**_ :
+Puzzles may range from pattern recognition and memory tests to physics-based challenges and riddles. As players advance, the difficulty of the puzzles increases, requiring creative thinking and strategic planning to overcome. Along the way, the boy will uncover clues about his parents' past and the events that led to the world's demise, adding depth to the narrative and driving the player's determination to succeed.
 
-#### Windows:
-```sh
-python -m pip install filexdb
-```
+<Heading > Visuals and Atmosphere</Heading> 
+"Last Hope: The Tower's Ascent" features stunning, atmospheric visuals that bring the post-apocalyptic world to life. From the crumbling ruins of the city below to the eerie silence of the abandoned skyscraper, every environment is richly detailed and evocative, immersing players in the desolate landscape.
 
-#### Linux / MAC:
-```sh
-python3 -m pip install filexdb
-```
+The soundtrack complements the game's atmosphere, with haunting melodies and ambient sounds enhancing the sense of isolation and desperation. As players ascend the tower, the tone shifts gradually from despair to hope, reflecting the boy's journey of self-discovery and resilience in the face of adversity.
 
-<Heading > Getting Start</Heading >
-```python
-from filexdb import FileXdb
-
-db = FileXdb("db-name", "path/to/data/dir")
-new_coll = db.collection("collection-name")
-
-new_coll.insert({"name": "Sam", "skills": ["Python", "C++"]})
-```
-
-
-### Insert Multiple Documents
-```python
-data = [
-    {
-        "name": "Jack",
-        "dept": "CSE"
-    },
-    {
-        "name": "Rocky", 
-        "address": {
-            "PO": "Bongaon", 
-            "PS": "Kolkata"
-        }, 
-        "skills": [
-            "Game Dev"
-        ]
-    },
-    {
-        "name": "Rahul"
-    }
-]
-
-new_coll.insert_all(data)           # `data` should be a List of  JSON Object
-```
-
-
-### Find Documents
-
-```python
-query = {"name": "Sam"}
-
-# Returns all Documents.
-new_coll.find()  
-
-# Returns all Documents matches the ``_query``.
-new_coll.find(query=query)  
-
-# Returns doc[1] to doc[2] matches the ``_query``.
-new_coll.find(query=query, limit=(1, 3))  
-
-# Returns doc[1] to doc[9] of all Documents.
-new_coll.find(limit=(3, 50))
-```
-
-
-### Update Documents
-```python
-query = {
-    "name": "Rocky"
-}
-
-updated_data = {
-    "name": "Rocky Bhai",
-    "skills": [
-        "Game Dev", 
-        "C++", 
-        "Python"
-    ]
-}
-
-new_coll.update(updated_data, query)
-```
-
-
-### Delete Documents
-```python
-query = {
-    "name": "Rocky Bhai", 
-    "dept": "ECE"
-}
-
-new_coll.delete(query)
-```
-
-<Heading > More Features</Heading >
-_FileXdb_ is in `Beta` stage. Currently we have above features only. We will come back to you with other advanced features soon.
-
-You may also contribute in this journey.
-
-
-
-<Heading > Contributing</Heading >
-
-Thank you for investing your time in [contributing](https://github.com/FileXdb/FileXdb-Python/blob/master/CONTRIBUTING.md) to our project! Whether it's a bug report, new feature, correction, or additional documentation, we greatly value feedback and contributions from our community. Any contribution you make will be reflected on `github.com/FileXdb/FileXdb-Python`✨.
-
-Contributions to _FileXdb_ are welcome! Here's how to get started:
-
-- Open an [issue](https://github.com/FileXdb/FileXdb-Python/issues) or find for related issues to start a discussion around a feature idea or a bug.
-- Fork the [repository](https://github.com/FileXdb/FileXdb-Python) on GitHub.
-- Create a new branch of the master branch and start making your changes.
-- Make a meaning-full commit.
-- Write a test, which shows that the bug is fixed or the feature works as expected.
-- Send a pull request and wait until it gets merged and published.
+<Heading > Conclusion</Heading> 
+"Last Hope: The Tower's Ascent" is more than just a game—it's a testament to the strength of the human spirit and the power of hope in the darkest of times. With its compelling narrative, challenging puzzles, and immersive atmosphere, the game offers players a unique and unforgettable experience as they embark on a quest for redemption and salvation in a world on the brink of destruction.
