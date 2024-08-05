@@ -18,7 +18,7 @@ This repository contains the source code and resources for a Sign Language Recog
 
 Though the project name is `Sign Language Recognition`, it can be used for any hand gesture recognition. In addition, the system is fully customizable and can be trained to recognize any hand gesture.
 
-<ImageLg  alt=""  src="/project/image/slr/SLR.png"/>
+<ImageLg  alt=""  src="https://raw.githubusercontent.com/CodingSamrat/CodingSamrat.CMS/master/project/image/slr/SLR.png"/>
 
 
 
@@ -84,7 +84,7 @@ To use the Sign Language Recognition System, follow these steps:
 
 Here is a demo of the Sign Language Recognition System in action:
 
-<ImageLg  alt=""  src="/project/image/slr/demo-ss-a.png"/>
+<ImageLg  alt=""  src="https://raw.githubusercontent.com/CodingSamrat/CodingSamrat.CMS/master/project/image/slr/demo-ss-a.png"/>
 
 
 
@@ -107,7 +107,7 @@ Enjoy your customized Sign Language Recognition System!
 
 In order to build such systems, data (keypoints of hands) must be obtained, then features involved in sign making must be extracted and finally combination of features must be analysed to describe the performed sign.
 
-<ImageLg  alt=""  src="/project/image/slr/flow-chart.png"/>
+<ImageLg  alt="flow-chart-slr-codingsamrat"  src="https://raw.githubusercontent.com/CodingSamrat/CodingSamrat.CMS/master/project/image/slr/flow-chart.png"/>
 
 
 ### Data Collection  
@@ -117,7 +117,7 @@ The first step in building a sign language recognition system is to collect a da
 For this project we use our hand sign data. And the data is collected using the [MediaPipe](https://google.github.io/mediapipe/) library. The library provides a hand tracking solution that can detect and track 21 hand landmarks in real-time. The hand landmarks are the key points or 2D coordinates that can be used to determine the pose of the hand.
 
 
-<ImageLg  alt=""  src="/project/image/slr/hand-landmarks.png"/>
+<ImageLg  alt="hand-landmarks-slr-codingsamrat"  src="https://raw.githubusercontent.com/CodingSamrat/CodingSamrat.CMS/master/project/image/slr/hand-landmarks.png"/>
 
 The hand landmarks are used to extract features from the hand gestures. The features are then used to train a machine learning model to recognize and interpret these gestures.
 
@@ -131,7 +131,7 @@ The collected data is preprocessed to enhance the quality, remove noise, and ext
 
 2. Converting the hand landmarks relative to the `wrist` landmark's coordinate `(0, 0)`. This is done by subtracting the `wrist` landmark's coordinate from all the other landmarks.
 
-<ImageLg  alt=""  src="/project/image/slr/hand_landmarks_o_r.png"/>
+<ImageLg  alt=""  src="https://raw.githubusercontent.com/CodingSamrat/CodingSamrat.CMS/master/project/image/slr/hand_landmarks_o_r.png"/>
 
 3. Flatten the normalized hand landmarks to a 1 Dimensional list.
 
