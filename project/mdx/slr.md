@@ -18,7 +18,7 @@ This repository contains the source code and resources for a Sign Language Recog
 
 Though the project name is `Sign Language Recognition`, it can be used for any hand gesture recognition. In addition, the system is fully customizable and can be trained to recognize any hand gesture.
 
-<ImageLg  alt=""  src="https://raw.githubusercontent.com/CodingSamrat/CodingSamrat.CMS/master/project/image/slr/SLR.png"/>
+<ImageLg  alt=""  src="/project/image/slr/SLR.png"/>
 
 
 

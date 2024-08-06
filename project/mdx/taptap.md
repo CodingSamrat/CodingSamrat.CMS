@@ -1,25 +1,11 @@
----
-title: 'Tap Tap'
-description: 'A hyper casual game built in Unity 3D Game Engine.'
-category: 'unity'
-thumbnail: '/project/image/taptap/taptap.png'
-publishDate: '2024-05-15'
-links: [
-    'https://github.com/CodingSamrat/Tap-Tap.git', 
-    'https://play.google.com/store/apps/details?id=com.vedantstudio.taptap', 
-    ]
-tags: ['unity', 'endless', 'casual']
-hidden: false
----
 
-
-### Introduction  
 
 Welcome to the world of Tap Tap, where simplicity meets excitement! In this hyper-casual Android game, players are challenged to navigate a ball through obstacles by tapping the screen to change its direction. With its intuitive GamePlay and addictive mechanics, Tap Tap offers endless fun for gamers of all ages. Let&prime;s dive into the thrilling world of Tap Tap!s
 <ImageSm src='https://raw.githubusercontent.com/CodingSamrat/CodingSamrat.CMS/master/project/image/taptap/ss1.png'/>
 
 
 
+<br/><br/>
 
 ### Easy to Learn, Hard to Master  
 
@@ -27,7 +13,7 @@ Tap Tap is designed with simplicity in mind, making it easy for anyone to pick u
 <ImageSm src='https://raw.githubusercontent.com/CodingSamrat/CodingSamrat.CMS/master/project/image/taptap/ss2.png'/>
 
 
-
+<br/><br/>
 
 ### Dynamic Gameplay  
 
@@ -36,6 +22,7 @@ What sets Tap Tap apart is its dynamic gameplay. The ball moves in a circular mo
 
 
 
+<br/><br/>
 
 ### Endless Challenges  
 
@@ -44,6 +31,7 @@ With an endless supply of levels, Tap Tap offers non-stop challenges for players
 
 
 
+<br/><br/>
 
 ### Conclusion  
 
